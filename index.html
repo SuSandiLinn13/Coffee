@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Leaf and Cafe</title>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- Navigation -->
+		<nav class="navbar">
+			<div class="logo">
+				<img
+					src="images/coffee-logo-design-creative-idea-logo-elements-2.png"
+					alt="CafeLogo"
+					class="logoImg"
+				/>
+				<h1 class="logoText">Barista</h1>
+			</div>
+			<div class="bar" onclick="navClick()">
+				<i class="fas fa-bars"></i>
+			</div>
+			<ul class="navItems">
+				<li class="navItem" onclick="navClick()"><a href="#home">Home</a></li>
+				<li class="navItem" onclick="navClick()"><a href="#about">About</a></li>
+				<li class="navItem" onclick="navClick()"><a href="#menu">Menu</a></li>
+				<li class="navItem" onclick="navClick()">
+					<a href="#services">Services</a>
+				</li>
+				<li class="nav_btn" onclick="navClick()">
+					<a href="#contact">ContactUs</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- home -->
+		<section class="home" id="home">
+			<div class="hometext">
+				<h2 class="home_title">coffee first, schemes later</h2>
+				<p class="text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste
+					accusamus fuga ipsa cumque laboriosam.
+				</p>
+				<button class="btn">get your drink</button>
+			</div>
+		</section>
+
+		<!-- About-->
+		<section class="about section" id="about">
+			<h2 class="title">about<span> us</span></h2>
+			<div class="aboutWrapper">
+				<img src="images/art-3020880_960_720.jpg" alt="Mocha" />
+				<div class="text abt_text">
+					<h4>get the best taste</h4>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
+						tempore nobis vel impedit doloribus rem! Mollitia blanditiis
+						quisquam animi eos?
+					</p>
+					<button class="btn abt_btn">learn more</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- menu section -->
+
+		<section class="menu section container" id="menu">
+			<h2 class="title"><span>our</span> menu</h2>
+			<div class="cardwrapper">
+				<div class="menu_card">
+					<img src="images/americano.jpg" alt="americano" class="menu_img" />
+					<h4 class="menu_title">americano</h4>
+					<p class="menu_text">
+						dark roast espresso with hot water, european style
+					</p>
+					<div>
+						<button class="price_tag btn">price : $5.99</button>
+						<button class="menu_btn btn">
+							<i class="fas fa-shopping-cart"></i> add to cart
+						</button>
+					</div>
+				</div>
+
+				<div class="menu_card">
+					<img
+						src="images/photo6150044764876156097.jpg"
+						alt="iced latte"
+						class="menu_img"
+					/>
+					<h4 class="menu_title">iced latte</h4>
+					<p class="menu_text">
+						dark roast espresso with steamed milk, milk foam
+					</p>
+					<div>
+						<button class="price_tag btn">price : $5.99</button>
+						<button class="menu_btn btn">
+							<i class="fas fa-shopping-cart"></i> add to cart
+						</button>
+					</div>
+				</div>
+
+				<div class="menu_card">
+					<img
+						src="images/mocha_latte.jpg"
+						alt="mocha latte"
+						class="menu_img"
+					/>
+					<h4 class="menu_title">mocha latte</h4>
+					<p class="menu_text">
+						steamed rich chocolate and espresso, whipped cream
+					</p>
+					<div>
+						<button class="price_tag btn">price : $5.99</button>
+						<button class="menu_btn btn">
+							<i class="fas fa-shopping-cart"></i> add to cart
+						</button>
+					</div>
+				</div>
+
+				<div class="menu_card">
+					<img src="images/cappuccino.jpg" alt="cappuccino" class="menu_img" />
+					<h4 class="menu_title">cappuccino</h4>
+					<p class="menu_text">
+						dark espresso steamed milk, a silky layer of foam
+					</p>
+					<div>
+						<button class="price_tag btn">price : $5.99</button>
+						<button class="menu_btn btn">
+							<i class="fas fa-shopping-cart"></i> add to cart
+						</button>
+					</div>
+				</div>
+
+				<div class="menu_card">
+					<img src="images/espresso1.jpg" alt="espresso" class="menu_img" />
+					<h4 class="menu_title">espresso</h4>
+					<p class="menu_text">
+						dark roast blend combines dark chocolate smokey
+					</p>
+					<div>
+						<button class="price_tag btn">price : $5.99</button>
+						<button class="menu_btn btn">
+							<i class="fas fa-shopping-cart"></i> add to cart
+						</button>
+					</div>
+				</div>
+
+				<div class="menu_card">
+					<img src="images/macchiato.jpg" alt="macchiato" class="menu_img" />
+					<h4 class="menu_title">iced caramel macchiato</h4>
+					<p class="menu_text">
+						rich chocolate milk, caramel syrup and dark roast
+					</p>
+					<div>
+						<button class="price_tag btn">price : $5.99</button>
+						<button class="menu_btn btn">
+							<i class="fas fa-shopping-cart"></i> add to cart
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- services -->
+
+		<section class="services section" id="services">
+			<h2 class="title"><span>our</span> services</h2>
+			<div class="cardwrapper">
+				<div class="service_card">
+					<i class="fas fa-biking"></i>
+					<h4 class="menu_title">free time</h4>
+					<p class="menu_text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis,
+						quam!
+					</p>
+				</div>
+
+				<div class="service_card">
+					<i class="fas fa-pencil-ruler"></i>
+					<h4 class="menu_title">design</h4>
+					<p class="menu_text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis,
+						quam!
+					</p>
+				</div>
+			</div>
+
+			<div class="cardwrapper">
+				<div class="service_card">
+					<i class="fas fa-camera-retro"></i>
+					<h4 class="menu_title">media</h4>
+					<p class="menu_text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis,
+						quam!
+					</p>
+				</div>
+
+				<div class="service_card">
+					<i class="fas fa-car-side"></i>
+					<h4 class="menu_title">delivery</h4>
+					<p class="menu_text">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis,
+						quam!
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- contact -->
+
+		<section class="contact section" id="contact">
+			<h2 class="title">contact<span> us</span></h2>
+			<div class="contact_card">
+				<h3 class="contact_title">request order</h3>
+
+				<div class="inputBox">
+					<i class="fas fa-user"></i>
+					<input type="text" name="name" placeholder="Your Name" required>
+				</div>
+
+				<div class="inputBox">
+					<i class="fas fa-envelope"></i>
+					<input type="email" name="email" placeholder="Your Email" required>
+				</div>
+
+				<div class="inputBox">
+					<i class="fas fa-mug-hot"></i>
+					<input type="text" name="items" placeholder="Types of items" required>
+				</div>
+
+				<div class="inputBox">
+					<i class="fas fa-paper-plane"></i>
+					<input type="submit" value="send">
+				</div>
+			</div>
+		</section>
+
+		<!-- footer -->
+
+		<section class="footer">
+			<div class="footer_text">
+				<h3>barista</h3>
+				<p>created @2021 | all rights reserved</p>
+			</div>
+			<div class="share">
+				<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+				<a href="#"><i class="fab fa-github fa-2x"></i></a>
+				<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+				<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+			</div>
+		</section>
+
+	</body>
+	<script src="script.js"></script>
+</html>
